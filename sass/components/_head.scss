@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(20px);
+
+    h1 {
+        text-transform: uppercase;
+        font-family: 'Merriweather';
+        font-size: 1.9rem;
+        padding-top: 200px;
+        padding-bottom: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(20px);
+       
+    }
+    p {
+        font-family: 'Merriweather';
+        font-style: italic;
+        padding-bottom: 40px;
+    }
+}

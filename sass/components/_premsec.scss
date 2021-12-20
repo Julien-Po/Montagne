@@ -1,0 +1,39 @@
+.bgcolor {
+    background: white;
+}
+
+.premsec {
+        text-align: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    h4 {
+        color: #898d91;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-family: 'Merriweather';
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-style: italic;
+        font-family: 'Merriweather';
+        font-weight: 300 italic;
+        padding-bottom: 20px;
+    }
+   
+    .firstpic {
+        background: url(../../assets/images/pic01.jpg) center/cover;
+        z-index: 2;
+        min-height: 300px;
+        margin: 0 auto;
+        width: 70%;
+     }
+}
+

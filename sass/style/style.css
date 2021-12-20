@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url(../../assets/images/bg.jpg) center/cover fixed;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-family: 'Merriweather';
+  font-size: 1.9rem;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+
+header p {
+  font-family: 'Merriweather';
+  font-style: italic;
+  padding-bottom: 40px;
+}
+
+.bgcolor {
+  background: white;
+}
+
+.premsec {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.premsec h4 {
+  color: #898d91;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.premsec h2 {
+  text-transform: uppercase;
+  font-family: 'Merriweather';
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.premsec p {
+  font-style: italic;
+  font-family: 'Merriweather';
+  font-weight: 300 italic;
+  padding-bottom: 20px;
+}
+
+.premsec .firstpic {
+  background: url(../../assets/images/pic01.jpg) center/cover;
+  z-index: 2;
+  min-height: 300px;
+  margin: 0 auto;
+  width: 90%;
+}
+/*# sourceMappingURL=style.css.map */
