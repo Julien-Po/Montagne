@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Merriweather:ital,wght@0,900;1,300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +22,7 @@ li {
     display: grid;
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     width: 90%;
     position: relative;
   }
@@ -220,16 +221,18 @@ nav img {
   border-bottom: lightgrey 1px solid;
 }
 
-.bgcolor {
-  background: white;
-}
-
 .secondsec {
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-right: lightgrey 1px solid;
+}
+
+.secondsec .bgcolor {
+  background: white;
+  padding-bottom: 50px;
+  height: 100%;
 }
 
 .secondsec h4 {
@@ -240,7 +243,7 @@ nav img {
 
 .secondsec h2 {
   text-transform: uppercase;
-  font-family: 'Merriweather';
+  font-family: 'Merriweather sans';
   letter-spacing: 1px;
   padding-bottom: 20px;
 }
@@ -249,7 +252,7 @@ nav img {
   font-style: italic;
   font-family: 'Merriweather';
   font-weight: 300 italic;
-  padding-bottom: 20px;
+  padding: 0 10px 20px;
 }
 
 .secondsec .secondpic {
@@ -270,21 +273,18 @@ nav img {
   padding: 15px 20px 15px 20px;
 }
 
-.secondsec .pad {
-  padding-bottom: 100px;
-  border-bottom: lightgrey 1px solid;
-}
-
-.bgcolor {
-  background: white;
-}
-
 .lastsec {
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-bottom: 1px solid lightgrey;
+}
+
+.lastsec .bgcolor {
+  background: white;
+  padding-bottom: 50px;
+  height: 100%;
 }
 
 .lastsec h4 {
@@ -295,7 +295,7 @@ nav img {
 
 .lastsec h2 {
   text-transform: uppercase;
-  font-family: 'Merriweather';
+  font-family: 'Merriweather sans';
   letter-spacing: 1px;
   padding-bottom: 20px;
 }
@@ -304,7 +304,7 @@ nav img {
   font-style: italic;
   font-family: 'Merriweather';
   font-weight: 300 italic;
-  padding-bottom: 20px;
+  padding: 0 10px 20px;
 }
 
 .lastsec .thirdpic {
@@ -323,10 +323,6 @@ nav img {
   letter-spacing: 1px;
   text-transform: uppercase;
   padding: 15px 20px 15px 20px;
-}
-
-.lastsec .pad {
-  padding-bottom: 101px;
 }
 
 footer {

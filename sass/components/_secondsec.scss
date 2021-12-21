@@ -1,12 +1,12 @@
-.bgcolor {
-    background: white;
-}
-
 .secondsec {
         text-align: center;
         align-items: center;
         border-right: lightgrey 1px solid;
-
+    .bgcolor {
+            background: white;
+            padding-bottom: 50px;
+            height: 100%;
+        }
     h4 {
         color: #898d91;
         padding-bottom: 20px;
@@ -15,7 +15,7 @@
 
     h2 {
         text-transform: uppercase;
-        font-family: 'Merriweather';
+        font-family: 'Merriweather sans';
         letter-spacing: 1px;
         padding-bottom: 20px;
     }
@@ -24,7 +24,7 @@
         font-style: italic;
         font-family: 'Merriweather';
         font-weight: 300 italic;
-        padding-bottom: 20px;
+        padding : 0 10px 20px;
     }
    
     .secondpic {
@@ -43,11 +43,6 @@
          letter-spacing: 1px;
          text-transform: uppercase;
          padding: 15px 20px 15px 20px;
-     }
-
-     .pad {
-         padding-bottom: 100px;
-         border-bottom: lightgrey 1px solid;
      }
 }
 
