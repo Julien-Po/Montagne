@@ -1,3 +1,10 @@
+@media screen and (max-width:850px) {
+    nav {
+        visibility: hidden;
+        height: 0;
+    }
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -10,7 +17,7 @@ nav {
         justify-content: space-around; 
     }
 
-    li:hover {
+    .over:hover {
         background: white;
     }
 
@@ -29,8 +36,8 @@ nav {
 .premsec {
         text-align: center;
         align-items: center;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 0 auto;
+        max-width: 90%;
 
     h4 {
         color: #898d91;

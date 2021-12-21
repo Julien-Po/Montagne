@@ -14,3 +14,32 @@ body {
 li {
     list-style-type: none;
 }
+
+@media screen and (min-width:850px){
+    .allsec {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 0 auto;
+        width: 90%;
+        position: relative;
+    }
+    .secondsec {
+        width: 100%;
+    }
+
+    .lastsec {
+        width: 100%;
+    }
+ }
+
+ @media screen and (max-width:850px) {
+     .secondsec {
+         width: 90%;
+         margin: 0 auto;
+     }
+
+     .lastsec {
+        width: 90%;
+        margin: 0 auto;
+    }
+ }
