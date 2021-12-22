@@ -189,6 +189,7 @@ nav img {
   font-family: 'Merriweather';
   letter-spacing: 1px;
   padding-bottom: 20px;
+  font-size: 3rem;
 }
 
 .premsec p {
@@ -246,6 +247,7 @@ nav img {
   font-family: 'Merriweather sans';
   letter-spacing: 1px;
   padding-bottom: 20px;
+  font-size: 2rem;
 }
 
 .secondsec p {
@@ -298,6 +300,7 @@ nav img {
   font-family: 'Merriweather sans';
   letter-spacing: 1px;
   padding-bottom: 20px;
+  font-size: 2rem;
 }
 
 .lastsec p {
@@ -339,6 +342,7 @@ footer {
   }
   footer h3 {
     text-align: center;
+    font-size: 1.5rem;
   }
   footer .bord {
     border-right: 1px solid lightgrey;
